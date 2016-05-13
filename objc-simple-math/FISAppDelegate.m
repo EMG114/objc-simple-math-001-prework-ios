@@ -107,7 +107,7 @@
     y = 5 - 8 * (4 + 2);
     NSLog(@"y: %li", y);
     
-    // Big boy floats
+    
     CGFloat f = 0.0;
     NSLog(@"f: %f", f);
     
@@ -123,7 +123,7 @@
     f = 13 + 27.0;
     NSLog(@"f: %f", f);
     
-    // More fun
+    
     f = M_PI;
     NSLog(@"f: %.2f", f);
     
@@ -133,7 +133,7 @@
     f = M_SQRT2;
     NSLog(@"m_sqrt(2): %f", f);
     
-    // sqrt(81)
+    
     NSLog(@"sqrt(81): %f", sqrt(81));
     
     return YES;
